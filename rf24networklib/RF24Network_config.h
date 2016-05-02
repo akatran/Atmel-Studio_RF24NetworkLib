@@ -82,7 +82,7 @@
 	#define XMEGA_D3
 	//#include "../RF24/RF24_config.h"
 	//#include "F:\Programming\uC_Programming\HomeAutomation\rf24lib\rf24lib\RF24_config.h"
-	#include "../../rf24lib/rf24lib/RF24_config.h"
+	#include "../../Atmel-Studio_RF24Lib/rf24lib/RF24_config.h"
 #else
     #include <RF24_config.h>
 #endif
