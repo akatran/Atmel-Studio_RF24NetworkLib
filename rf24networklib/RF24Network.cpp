@@ -21,10 +21,6 @@
   #include <algorithm>
   #include <RF24/RF24.h>
   #include "RF24Network.h"
-#elif defined(__AVR_ATxmega256D3__)
-	#define XMEGA_D3
-	#include "../../Atmel-Studio_RF24Lib/rf24lib/RF24.h"
-	#include "RF24Network.h"
 #else  
   #include "RF24.h"
   #include "RF24Network.h"
